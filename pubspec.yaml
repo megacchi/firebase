@@ -1,0 +1,66 @@
+name: firebase_app
+description: A new Flutter application.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Firebase
+  cloud_firestore: ^0.14.4
+  firebase_admob: ^0.10.0+2
+  firebase_analytics: ^6.3.0
+  firebase_auth: ^0.18.4
+  firebase_core: ^0.5.3
+  firebase_crashlytics: ^0.2.4
+  firebase_in_app_messaging: ^0.2.3
+  firebase_storage: ^5.2.0
+  ## 利用予定 未実装
+  firebase_performance: ^0.4.3
+  firebase_dynamic_links: ^0.6.3
+  firebase_remote_config: ^0.4.3
+
+  #  firebase_ui: ^1.0.8
+
+  # Auth
+  flutter_signin_button: ^1.1.0
+  google_sign_in: ^4.5.6
+
+  # Util
+  logger: ^0.9.4
+  dartdoc: ^0.37.0
+  provider: ^4.3.2+2
+
+  # Icon
+  flutter_launcher_icons: ^0.7.4
+  material_design_icons_flutter: 4.0.5755
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: 'lib/assets/images/firebase_logo_icon_171157.png'
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
